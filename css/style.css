@@ -296,3 +296,31 @@ hr {
   #contactme > div > h2{
     margin-top: 50px;
   }
+
+  @media (max-width: 768px) {
+    .parent {
+      display: grid;
+      grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+      grid-template-columns: 1fr;
+    }
+  
+    .webdev,
+    .cplusplus,
+    .watching-anime-text {
+      text-align: center;
+    }
+  
+    .webdev img,
+    .cplusplus img,
+    .watching-anime img {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .webdev,
+    .cplusplus,
+    .watching-anime-text {
+      margin-top: 20px; /* Adjust spacing between image and text */
+    }
+
+  }
