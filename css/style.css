@@ -323,4 +323,24 @@ hr {
       margin-top: 20px; /* Adjust spacing between image and text */
     }
 
+    #intro > div > div{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+    
+    #intro > div{
+      margin-bottom: -200px;
+    }
+
+    #skills > div{
+      margin-top: 65px;
+    }
   }
